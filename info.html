@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>О актёре</title>
+
+</head>
+
+<body >
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+            <div class="container-fluid d-flex justify-content-center">
+                <a class="navbar-brand inline" href="https://khabenskiy.ru"><img src="img/Logo.jpg" alt="Logo"
+                        style="width: 50px;" class="rounded-pill"></a>
+                <div id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="info.html">О актёре</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="films.html">Фильмография</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-2 m-4">
+                <div id="list-example" class="list-group sticky-top"  >
+                    <a class="list-group-item list-group-item-action  " href="#list-item-1">Карусель</a>
+                    <a class="list-group-item list-group-item-action " href="#list-item-2">Карточки</a>
+                    <a class="list-group-item list-group-item-action " href="#list-item-3">Информация</a>
+                </div>
+            </div>
+            <div class="col-9">
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                    class="scrollspy-example" tabindex="0">
+
+                    <div id="list-item-1" class="carousel slide ">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#list-item-1" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#list-item-1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#list-item-1" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="img_block">
+                                    <img src="img/1_carousel.jpg" class="d-block w-100" alt="1">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img_block">
+                                    <img src="img/2_carousel.jpg" class="d-block w-100" alt="1">
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <div class="img_block">
+                                    <img src="img/3_carousel.jpg" class="d-block w-100" alt="1">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#list-item-1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#list-item-1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div id="list-item-2" class="cards m-5 d-flex ">
+                        <div class="card m-auto bg-dark text-white" style="width: 33%">
+                            <img src="img/1_card.jpg" class="card-img-top" alt="1">
+                            <div class="card-body ">
+                                <h5 class="card-title">Собибор (2018)</h5>
+                                <p class="card-text">В октябре 1943 года заключённые лагеря Собибор во главе с
+                                    лейтенантом
+                                    Красной
+                                    армии Александром Печерским поднимают
+                                    восстание — единственное успешное восстание в нацистском лагере смерти.</p>
+                                <a href="https://www.kinopoisk.ru/film/905031/?utm_referrer=yandex.ru"
+                                    class="btn">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="card m-auto bg-dark text-white" style="width: 33%">
+                            <img src="img/2_card.jpg" class="card-img-top" alt="2">
+                            <div class="card-body">
+                                <h5 class="card-title">Домовой (2008)</h5>
+                                <p class="card-text">Автор бульварных детективов Антон переживает творческий кризис.
+                                    Выйти
+                                    из него ему весьма необычным способом
+                                    помогает наемный убийца по прозвищу Домовой, который на его глазах безжалостно
+                                    расстреливает
+                                    машину с людьми.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/395423/" class="btn">Перейти</a>
+                            </div>
+                        </div>
+                        <div class="card m-auto bg-dark text-white" style="width: 33%">
+                            <img src="img/3_card.jpg" class="card-img-top" alt="3">
+                            <div class="card-body">
+                                <h5 class="card-title">Коллектор (2016)</h5>
+                                <p class="card-text">Артур - мастер своего дела. Работая только с крупными должниками,
+                                    он
+                                    находит
+                                    всю их подноготную и эффективно использует
+                                    против них. Он никогда не прибегает к банальным методам, его конек - психологическая
+                                    атака.
+                                </p>
+                                <a href="https://www.kinopoisk.ru/film/932512/" class="btn">Перейти</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="list-item-3" class="m-5">
+                        <div class=" d-flex">
+                            <button class="btn m-auto " type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                                Дополнительная информация
+                            </button>
+                        </div>
+
+                        <div class="collapse show m-5" id="collapseExample">
+                            <div class="card card-body">
+                                <p>
+
+                                    Константин Юрьевич Хабенский — ведущий российский актер театра и кино (почти 70
+                                    ролей в
+                                    полнометражных картинах и
+                                    сериалах в фильмографии и более 30 театральных постановок с его участием), режиссер
+                                    театра и
+                                    кино
+                                    (режиссерский
+                                    кинодебют — фильм «Собибор»), основатель Благотворительного Фонда. По рейтингам
+                                    Константин
+                                    Хабенский
+                                    входит в ТОП-5
+                                    самых популярных российских киноактеров, а по результатам исследования портала
+                                    «Кинопоиск.ру»
+                                    является самым популярным
+                                    российским актером XXI века.
+                                </p>
+                                <p>
+                                    Константин Хабенский входит в труппу Московского Художественного театра
+                                    им.А.П.Чехова и
+                                    является
+                                    одним из самых
+                                    востребованных артистов на российской театральной сцене.
+                                </p>
+                                <p>
+
+                                    Масштаб творческого дарования артиста огромен: кроме съемок в кино и спектаклей в
+                                    театре
+                                    Константин
+                                    принимает участие в
+                                    музыкально-литературных проектах, суперпопулярных чтениях трендовых писателей,
+                                    организует
+                                    фестивали,
+                                    проводит
+                                    мастер-классы и открытые лекции.
+                                </p>
+                                <p>
+                                    24 июня 2020 г. Президент России Владимир Путин вручил Константину Хабенскому
+                                    Государственную премию
+                                    за выдающиеся
+                                    достижения в области благотворительной деятельности на церемонии, которая прошла в
+                                    Кремле.
+                                    Зрители
+                                    всей страны смотрели
+                                    церемонию в прямом эфире телеканала «Россия».
+                                </p>
+                                <p>
+                                    Константин Хабенский родился 11 января 1972 года в Ленинграде. Окончив 8 классов,
+                                    Хабенский
+                                    поступил
+                                    в техникум
+                                    авиационного приборостроения и автоматики, но после 3 курса забрал документы,
+                                    осознав, что
+                                    техническая специальность не
+                                    для него. Хабенский подрабатывал уличным музыкантом, затем монтировщиком в
+                                    театре-студии
+                                    «Суббота»,
+                                    когда в массовке
+                                    вышел на сцену и осознал, что сцена — его призвание.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
