@@ -1,0 +1,25 @@
+.carousel {
+  background-color: rgb(108, 110, 110);
+}
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.btn {
+  background-color: azure;
+}
+
+#list-example{
+  padding-top: 20px;
+}
+.list-group-item.active {
+    border-color:rgba(0, 0, 0, 0.336); /* Начальный цвет обводки */
+    background-color: rgba(0, 0, 0, 0.336);
+}
